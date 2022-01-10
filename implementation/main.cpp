@@ -2,11 +2,11 @@
 #include <iostream>
 using namespace std;
 
-main() {
+int main() {
 	Student stu;
 
 
-	cout << stu.FirstName() << stu.LastName() << stu.StudentIdentifier();
+	cout << stu.FirstName() << " " << stu.LastName() << " " << stu.StudentIdentifier();
 
 	return 0;
 }
